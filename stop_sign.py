@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img = cv.imread("stop_sign_dataset/premium_photo-1731192705955-f10a8e7174d2.jpg")
+img = cv.imread("")
 hsv = cv.cvtColor(img, cv.COLOR_BGR2HSV)
 
 lower_red1 = np.array([0, 60, 50])
